@@ -14,7 +14,7 @@ class Motor:
         self.tipo = tipo
         self.registro = registro
     def cambiarRegistro(self, registro):
-        self.regiistro = registro
+        self.registro = registro
     def asignarTipo(self, tipo):
         if(tipo == "gasolina" or tipo == "electrico"):
             self.tipo = tipo
@@ -47,5 +47,5 @@ class Auto:
         if (integridad):
             return "Auto original"
         else:
-            return " Las piezas no son originales"
+            return "Las piezas no son originales"
 
